@@ -1,0 +1,64 @@
+@media screen and (min-width: 768px)  {
+    .header-container {
+      max-width: 734px;
+    }
+
+.header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+ 
+.button-menu-gamburger {
+  width: 32px;
+  height: 32px;
+}
+
+.icon-gamburger {
+  width: 24px;
+  height: 16px;
+}  
+
+.header-navigation {
+  top: 156px;
+  left: 85px;
+}
+.header-link:hover,
+.header-link:focus {
+  color: var(--accent-color);
+}
+
+.header-social {
+  bottom: 24px;
+  left: 32px;
+ }
+
+.social-link:hover,
+.social-link:focus {
+  color: var(--accent-color)
+}
+
+.social-icon {
+  stroke: currentColor;
+  fill: transparent;
+}
+
+  /*   MOBILE-MENU   */
+  
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+  
+.header-nav-wrap {
+  min-width: 290px;
+ }
+}
+.header-btn-mobile-close {
+  top: 24px;
+  right: 32px;
+  width: 32px;
+  height: 32px;
+  }
+
+.close-icon{
+  width: 13.33px;
+  height: 13.33px;
+ }
+  }

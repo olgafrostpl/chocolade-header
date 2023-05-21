@@ -1,1 +1,1 @@
-# chocolade-header
+# chocolate-header
